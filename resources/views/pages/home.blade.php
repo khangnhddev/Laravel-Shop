@@ -7,14 +7,14 @@
 
     <div class="post-wrapper">
         <div class="post">
-            <img src="{{ asset('frontend/img/BG-1.jpg')}}" alt="">
+            <img src="{{ asset('frontend/img/banner_1.jpg')}}" alt="">
         </div>
-        <div class="post">
+        {{-- <div class="post">
             <img src="{{ asset('frontend/img/BG-2.jpg')}}" alt="">
         </div>
         <div class="post">
             <img src="{{ asset('frontend/img/BG-3.jpg')}}" alt="">
-        </div>
+        </div> --}}
     </div>
 
 </div>
@@ -81,7 +81,7 @@
     </div>
 </div>
 
-<div class="banner">
+{{-- <div class="banner">
     <div class="body__mainTitle">
         <h2>Dịch vụ của chúng tôi</h2>
     </div>
@@ -112,20 +112,20 @@
         </div>
 
     </div>
-</div>
+</div> --}}
 
 <!-- Sản phẩm cho chó -->
 <div class="body">
 
     <div class="body__mainTitle d-flex align-items-center">
-        <h2>Sản phẩm dành cho chó</h2>
-        <b>
+        <h2>Sản phẩm kinh doanh</h2>
+        {{-- <b>
             <div class="d-flex justify-content-center align-items-center ml-5" style="font-size: 26px;">
                 <div id="fordog" class="text-secondary activeColor mr-3">Đồ ăn</div>
                 <div id="fordog2" class="text-secondary mr-3">Phụ kiện</div>
                 <div id="fordog3" class="text-secondary">Vật dụng</div>
             </div>
-        </b>
+        </b> --}}
 
     </div>
 
@@ -267,11 +267,11 @@
     </div>
 </div>
 
-<div class="banner">
+{{-- <div class="banner">
     <div class="banner-top">
         <img src="{{ asset('frontend/img/BG-2.jpg')}}" />
     </div>
-</div>
+</div> --}}
 
 <!-- Sản phẩm cho mèo -->
 <div class="body">
@@ -426,19 +426,19 @@
     </div>
 </div>
 
-<div class="banner">
+{{-- <div class="banner">
 
     <div class="row banner-top">
         <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/BG-1.jpg')}}" />
         <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/BG-2.jpg')}}" />
         <img class="col-md-4 col-sm-6" src="{{ asset('frontend/img/BG-3.jpg')}}" />
     </div>
-</div>
+</div> --}}
 
 <!-- Con giống -->
 <div class="body">
 
-    <div class="body__mainTitle d-flex align-items-center">
+    {{-- <div class="body__mainTitle d-flex align-items-center">
         <h2>Con giống</h2>
         <b>
             <div class="d-flex justify-content-center align-items-center ml-5" style="font-size: 26px;">
@@ -447,9 +447,9 @@
             </div>
         </b>
 
-    </div>
+    </div> --}}
 
-    <div class="dog active">
+    {{-- <div class="dog active">
         <div class="row">
             @foreach($choGiongs as $choGiong)
             <div class="col-lg-2_5 col-md-4 col-6 post2">
@@ -495,7 +495,7 @@
             </div>
             @endforeach
         </div>
-    </div>
+    </div> --}}
 
     <div class="cat">
         <div class="row">
