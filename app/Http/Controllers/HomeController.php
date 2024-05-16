@@ -18,7 +18,6 @@ class HomeController extends Controller
     }
 
     public function index(){
-        return 'Ok ok bla bal';
         $alls = $this->sanphamRepository->allProduct();
         $sanphams = $this->sanphamRepository->relatedProduct();
         $dogproducts = $this->sanphamRepository->dogProduct();
