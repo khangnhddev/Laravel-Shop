@@ -959,8 +959,8 @@ footer {
   padding: 10px 0;
 }
 .footer__info-content > p {
-  line-height: 30px;
-  padding: 10px 0;
+  /* line-height: 30px;
+  padding: 10px 0; */
 }
 .footer__info-content > p > a {
   text-decoration: none;

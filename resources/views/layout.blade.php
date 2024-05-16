@@ -32,9 +32,9 @@
                     <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
                     <ul>
                         <li><a href="{{ URL::to('/')}}">Trang chủ</a></li>
-                        <li><a href="{{ URL::to('/congiong')}}">Con giống</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
                         <li>
-                            <a href="{{ URL::to('/services')}}">Dịch vụ</a>
+                            <a href="#">Dịch vụ</a>
                         </li>
                         <li>
                             <a href="{{ URL::to('/donhang')}}">Đơn hàng</a>
@@ -95,7 +95,7 @@
     <footer>
         <div class="footer">
             <div class="footer__title">
-                <span>Liên hệ</span>
+                {{-- <span>Liên hệ</span> --}}
                 <div class="footer__social">
                     <a href="facebook.com/trieuetam" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-github"></i></a>
@@ -106,9 +106,9 @@
         
         <div class="footer__info">
 
-            <div class="footer__info-content">
+            <div class="footer__info-content" style="width: 400px">
                 <h3>Giới thiệu</h3>
-                <p>Website quản lý, mua bán thú cưng</p>
+                <p>Chuyên in ấn bao bì kim loại và chuyên sản phẩm bao gồm: lon đựng thực phẩm các loại và các loại hộp đựng bánh, đựng trà. Sản xuất lon đựng sơn, dầu sơn, đựng sơn nước.</p>
             </div>
 
 
@@ -116,19 +116,18 @@
             <div class="footer__info-content">
                 <h3>Liên hệ</h3>
                 <p>Địa chỉ: 561 Su Van Hanh StreetWard 13, District 10</p>
-                <p>Email: trieuetam@gmail.com</p>
-                <p>Sđt: 123456789</p>
+                <p>Email: hongvantaiwan@gmail.com</p>
+                <p>Sđt: 0982440403, 0395504481</p>
             </div>
 
             <div class="footer__info-content">
                 <h3>Fanpage</h3>
-                <p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FC%25E1%25BB%25ADa-h%25C3%25A0ng-S%25E1%25BA%25A3n-ph%25E1%25BA%25A9m-D%25C3%25A0nh-cho-Th%25C3%25BA-C%25C6%25B0ng-100178969197228%2F%3Fref%3Dpages_you_manage&tabs=timeline&width=300px&height=150px&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="150px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
             </div>
 
         </div>
 
         <div class="footer__copyright">
-            <center> 2022 All rights reserved.</center>
+            <center> 2024 All rights reserved.</center>
         </div>
     </footer>
     
