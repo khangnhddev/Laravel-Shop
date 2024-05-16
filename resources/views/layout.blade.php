@@ -18,6 +18,13 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 
+    <style>
+         @media (max-width: 600px) {
+            .footer__info-content > p {
+                max-width: 300px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="header">

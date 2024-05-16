@@ -4,13 +4,28 @@
         <i class="fa fa-chevron-left prev" aria-hidden="true"></i>
         <i class="fa fa-chevron-right next" aria-hidden="true"></i>
 
+        @php
+         $agent = new \Jenssegers\Agent\Agent;
+        @endphp
+       
         <div class="post-wrapper">
-            <div class="post">
-                <img src="{{ asset('frontend/img/banner2.jpg') }}" alt="">
-            </div>
-            <div class="post">
-                <img src="{{ asset('frontend/img/banner3.jpg') }}" alt="">
-            </div>
+             
+            @if(!$agent->isMobile())
+                <div class="post">
+                    <img src="{{ asset('frontend/img/banner2.jpg') }}" alt="">
+                </div>
+                <div class="post">
+                    <img src="{{ asset('frontend/img/banner3.jpg') }}" alt="">
+                </div>
+            @else
+                <div class="post">
+                    <img src="{{ asset('frontend/img/banner_2_mb.jpg') }}" alt="">
+                </div>
+                <div class="post">
+                    <img src="{{ asset('frontend/img/banner_3_mb.jpg') }}" alt="">
+                </div>
+            @endif
+           
         </div>
 
     </div>
