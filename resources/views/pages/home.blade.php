@@ -8,12 +8,9 @@
             <div class="post">
                 <img src="{{ asset('frontend/img/banner2.jpg') }}" alt="">
             </div>
-            {{-- <div class="post">
-            <img src="{{ asset('frontend/img/BG-2.jpg')}}" alt="">
-        </div>
-        <div class="post">
-            <img src="{{ asset('frontend/img/BG-3.jpg')}}" alt="">
-        </div> --}}
+            <div class="post">
+                <img src="{{ asset('frontend/img/banner3.jpg') }}" alt="">
+            </div>
         </div>
 
     </div>
