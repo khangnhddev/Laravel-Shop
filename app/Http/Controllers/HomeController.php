@@ -20,6 +20,7 @@ class HomeController extends Controller
     public function index(){
         $alls = $this->sanphamRepository->allProduct();
         $sanphams = $this->sanphamRepository->relatedProduct();
+        dd($sanphams);
         $dogproducts = $this->sanphamRepository->dogProduct();
         $catproducts = $this->sanphamRepository->catProduct();
         $choGiongs = $this->sanphamRepository->choGiong();
