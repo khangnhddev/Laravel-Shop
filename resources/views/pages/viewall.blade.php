@@ -30,7 +30,7 @@
                                 {{$sanpham->tensp}}
                             </div>
 
-                            <div class="product__pride-oldPride">
+                            {{-- <div class="product__pride-oldPride">
                                 <span class="Price">
                                     <bdi>
                                         {{ number_format($sanpham->giasp, 0, ',', '.') }}
@@ -46,7 +46,7 @@
                                         <span class="currencySymbol">₫</span>
                                     </bdi>
                                 </span>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </a>

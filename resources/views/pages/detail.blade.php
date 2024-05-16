@@ -29,7 +29,7 @@
                     </div><hr />
     
                     <div class="product__pride">
-                        <div class="product__pride-oldPride" style="font-size: 20px; text-align: start;">
+                        {{-- <div class="product__pride-oldPride" style="font-size: 20px; text-align: start;">
                             <span class="Price">
                                 <bdi>
                                     {{ number_format($sanpham->giasp, 0, ',', '.') }}  
@@ -43,7 +43,7 @@
                                     <span class="currencySymbol">₫</span>
                                 </bdi>
                             </span>
-                        </div>
+                        </div> --}}
     
                     </div>
     
@@ -153,7 +153,7 @@
                                 {{$random->tensp}}
                             </div>
 
-                            <div class="product__pride-oldPride">
+                            {{-- <div class="product__pride-oldPride">
                                 <span class="Price">
                                     <bdi>
                                         {{ number_format($random->giasp, 0, ',', '.') }}
@@ -169,7 +169,7 @@
                                         <span class="currencySymbol">₫</span>
                                     </bdi>
                                 </span>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </a>

@@ -50,7 +50,7 @@
                                             {{ $sanpham->tensp }}
                                         </div>
 
-                                        <div class="product__pride-oldPride">
+                                        {{-- <div class="product__pride-oldPride">
                                             <span class="Price">
                                                 <bdi>
                                                     {{ number_format($sanpham->giasp, 0, ',', '.') }}
@@ -66,7 +66,7 @@
                                                     <span class="currencySymbol">₫</span>
                                                 </bdi>
                                             </span>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </a>
@@ -150,7 +150,7 @@
                                         {{ $dogproduct->tensp }}
                                     </div>
 
-                                    <div class="product__pride-oldPride">
+                                    {{-- <div class="product__pride-oldPride">
                                         <span class="Price">
                                             <bdi>
                                                 {{ number_format($dogproduct->giasp, 0, ',', '.') }}
@@ -166,7 +166,7 @@
                                                 <span class="currencySymbol">₫</span>
                                             </bdi>
                                         </span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </a>
@@ -236,7 +236,7 @@
                                     {{ $sanpham->tensp }}
                                 </div>
 
-                                <div class="product__pride-oldPride">
+                                {{-- <div class="product__pride-oldPride">
                                     <span class="Price">
                                         <bdi>
                                             300000
@@ -252,7 +252,7 @@
                                             <span class="currencySymbol">₫</span>
                                         </bdi>
                                     </span>
-                                </div>
+                                </div> --}}
 
                             </div>
 
@@ -310,7 +310,7 @@
                                         {{ $catproduct->tensp }}
                                     </div>
 
-                                    <div class="product__pride-oldPride">
+                                    {{-- <div class="product__pride-oldPride">
                                         <span class="Price">
                                             <bdi>
                                                 {{ number_format($catproduct->giasp, 0, ',', '.') }}
@@ -326,7 +326,7 @@
                                                 <span class="currencySymbol">₫</span>
                                             </bdi>
                                         </span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </a>
@@ -397,7 +397,7 @@
                                     {{ $sanpham->tensp }}
                                 </div>
 
-                                <div class="product__pride-oldPride">
+                                {{-- <div class="product__pride-oldPride">
                                     <span class="Price">
                                         <bdi>
                                             300000
@@ -413,7 +413,7 @@
                                             <span class="currencySymbol">₫</span>
                                         </bdi>
                                     </span>
-                                </div>
+                                </div> --}}
 
                             </div>
 
@@ -520,7 +520,7 @@
                                         {{ $meoGiong->tensp }}
                                     </div>
 
-                                    <div class="product__pride-oldPride">
+                                    {{-- <div class="product__pride-oldPride">
                                         <span class="Price">
                                             <bdi>
                                                 {{ number_format($meoGiong->giasp, 0, ',', '.') }}
@@ -536,7 +536,7 @@
                                                 <span class="currencySymbol">₫</span>
                                             </bdi>
                                         </span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </a>
@@ -578,7 +578,7 @@
                                         {{ $all->tensp }}
                                     </div>
 
-                                    <div class="product__pride-oldPride">
+                                    {{-- <div class="product__pride-oldPride">
                                         <span class="Price">
                                             <bdi>
                                                 {{ number_format($all->giasp, 0, ',', '.') }}
@@ -594,7 +594,7 @@
                                                 <span class="currencySymbol">₫</span>
                                             </bdi>
                                         </span>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </a>
