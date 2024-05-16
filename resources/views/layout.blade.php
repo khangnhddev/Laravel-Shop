@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Công Ty Hồng Vân Taiwan</title>
-    {{-- <link rel="shortcut icon" type="image/png" href="{{ asset('frontend/img/logo.jpg')}}"/> --}}
+    <link rel="shortcut icon" type="image/png" href="{{ asset('frontend/img/logo.jpg')}}"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -24,9 +24,9 @@
             
         <div class="navbar">
             <div class="navbar__left">
-                {{-- <a href="{{ URL::to('/')}}" class="navbar__logo">
+                <a href="{{ URL::to('/')}}" class="navbar__logo">
                     <img src="{{ asset('frontend/img/logo.jpg') }}" alt="">
-                </a> --}}
+                </a>
 
                 <div class="navbar__menu">
                     <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
