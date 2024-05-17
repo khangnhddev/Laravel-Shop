@@ -122,9 +122,10 @@
 
             <div class="footer__info-content">
                 <h3>Liên hệ</h3>
-                <p>Địa chỉ: 561 Su Van Hanh StreetWard 13, District 10</p>
+                <p>Địa chỉ: Đức Huệ, Long An</p>
                 <p>Email: hongvantaiwan@gmail.com</p>
                 <p>Sđt: 0982440403, 0395504481</p>
+                <p>STK: 102876505032, Vietinbank, Nguyễn Văn Rin</p>
             </div>
 
             <div class="footer__info-content">
