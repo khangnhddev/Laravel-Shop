@@ -87,7 +87,7 @@
         <hr />
     
         <!--Bình luận sản phẩm-->
-        <div class="body__mainTitle">
+        {{-- <div class="body__mainTitle">
             <h2>BÌNH LUẬN</h2>
         </div>
         <div>
@@ -104,7 +104,7 @@
             </div>
     
             <hr />
-        </div>
+        </div> --}}
     
         <div class="d-flex justify-content-between align-items-center">
             <div>Nội dung</div>
